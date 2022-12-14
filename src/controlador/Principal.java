@@ -35,17 +35,21 @@ public class Principal {
 		String selecionMoneda;
 		do {
 			double aConvertir = vista.entradaValor();
-			selecionMoneda = vista.opcionMoneda();
-			switch (selecionMoneda) {
-			case "Bolívar (VED) a USD / EUR":
-				vista.muestraCotizacion(dolar, euro, aConvertir);
-				break;
-			case "Dólar (USD) a VED":
-				vista.muestraCotizacion(dolar, null, aConvertir);
-				break;
-			case "Euro (EUR) a VED":
-				vista.muestraCotizacion(euro, null, aConvertir);
-				break;
+			if (aConvertir == 0) {
+				selecionMoneda = "Cancelar";
+			} else {
+				selecionMoneda = vista.opcionMoneda();
+				switch (selecionMoneda) {
+				case "Bolívar (VED) a USD / EUR":
+					vista.muestraCotizacion(dolar, euro, aConvertir);
+					break;
+				case "Dólar (USD) a VED":
+					vista.muestraCotizacion(dolar, null, aConvertir);
+					break;
+				case "Euro (EUR) a VED":
+					vista.muestraCotizacion(euro, null, aConvertir);
+					break;
+				}
 			}
 		} while (selecionMoneda != "Cancelar");
 	}
