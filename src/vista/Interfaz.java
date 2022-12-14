@@ -20,13 +20,11 @@ public class Interfaz {
 	public double entradaValor() {
 		String entrada = JOptionPane.showInputDialog("Ingrese cantidad a convertir:",
 				"Solo cifras numéricas positivas ...");
-		if (entrada == null || entrada.isEmpty() || !entrada.matches("^[0-9]+([.][0-9]{1,2})?$")) {
-			if (entrada == null) {
-				return 0;
-			} else {
-				muestraMensaje("Entrada invalida.", "Error", 0);
-				return entradaValor();
-			}
+		if (entrada == null) {
+			return 0;
+		} else if (entrada.isEmpty() || !entrada.matches("^[0-9]+([.][0-9]{1,2})?$")){
+			muestraMensaje("Entrada invalida.", "Error", 0);
+			return entradaValor();
 		}
 		return Double.parseDouble(entrada);
 	}
