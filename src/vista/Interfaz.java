@@ -11,14 +11,14 @@ import java.text.MessageFormat;
 public class Interfaz {
 
 	public String menuPrincipal() {
-		Object[] posibilidad = { "Moneda", "Temperatura" };
+		Object[] posibilidad = { "Divisa", "Temperatura" };
 		String seleccion = (String) JOptionPane.showInputDialog(null, "Seleccione tipo de conversión:", "Conversor",
 				JOptionPane.QUESTION_MESSAGE, null, posibilidad, null);
 		return (seleccion != null) ? seleccion : "Cancelar";
 	}
 
 	public double entradaValor() {
-		String entrada = JOptionPane.showInputDialog("Ingrese valor a convertir:",
+		String entrada = JOptionPane.showInputDialog("Ingrese cantidad a convertir:",
 				"Solo cifras numéricas positivas ...");
 		if (entrada == null || entrada.isEmpty() || !entrada.matches("^[0-9]+([.][0-9]{1,2})?$")) {
 			if (entrada == null) {
@@ -32,8 +32,8 @@ public class Interfaz {
 	}
 
 	public String opcionMoneda() {
-		Object[] posibilidad = { "Bolívar (VED)", "Dólar", "Euro" };
-		String seleccion = (String) JOptionPane.showInputDialog(null, "Elija moneda a cotizar:", "Cotización",
+		Object[] posibilidad = { "Bolívar (VED) a USD / EUR", "Dólar (USD) a VED", "Euro (EUR) a VED" };
+		String seleccion = (String) JOptionPane.showInputDialog(null, "Elija divisa a cotizar:", "Cotización",
 				JOptionPane.QUESTION_MESSAGE, null, posibilidad, posibilidad[1]);
 		return (seleccion != null) ? seleccion : "Cancelar";
 	}

@@ -15,8 +15,8 @@ public class Principal {
 		do {
 			seleccionMenu = vista.menuPrincipal();
 			switch (seleccionMenu) {
-			case "Moneda":
-				vista.muestraMensaje("Tipos de cambio, importados de Internet.", "Advertencia", 2);
+			case "Divisa":
+				vista.muestraMensaje("- Conversor para el mercado monetario venezolano.\n-Tipos de cambio, importados de Internet.", "Advertencia", 2);
 				ConsumoAPI consumoAPI = new ConsumoAPI();
 				StringBuilder infoTipoCambio = consumoAPI.getTipoCambio();
 				Tasa[] dolar = consumoAPI.setTipoCambio(infoTipoCambio, "USD");
@@ -26,14 +26,14 @@ public class Principal {
 					double aConvertir = vista.entradaValor();
 					selecionMoneda = vista.opcionMoneda();
 					switch (selecionMoneda) {
-					case "Dólar":
+					case "Bolívar (VED) a USD / EUR":
+						vista.muestraCotizacion(dolar, euro, aConvertir);
+						break;
+					case "Dólar (USD) a VED":
 						vista.muestraCotizacion(dolar, null, aConvertir);
 						break;
-					case "Euro":
+					case "Euro (EUR) a VED":
 						vista.muestraCotizacion(euro, null, aConvertir);
-						break;
-					case "Bolívar (VED)":
-						vista.muestraCotizacion(dolar, euro, aConvertir);
 						break;
 					}
 				} while (selecionMoneda != "Cancelar");
