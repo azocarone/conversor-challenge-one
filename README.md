@@ -42,6 +42,9 @@ En cuanto a los tipos de cambio, se importan de la [API DolarToday](https://s3.a
 
 1. Seleccione el tipo de conversión:
 
+<p align="center">
+    <img src="(/img/01.png">
+</p>
 ![fig. 1](/img/01.png)
 
 2. Visualizará un mensaje explicativo del funcionamiento del programa:
