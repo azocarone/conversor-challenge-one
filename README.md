@@ -10,24 +10,23 @@ Con base en lo anterior, se utilizó el modelo venezolano, donde las monedas rel
 | --- | --- |
 | Dólar BCV  (sicad2) | DólarToday (dolartoday) |
 | Dólar Bitcoin (sicad1) | Cúcuta (efectivo_cucuta) |
-| Petro (PTR) (cencoex) | --- |
+| Petro (PTR) (cencoex) | - |
 
-- BCV: Banco Central de Venezuela;
-- SICAD: Sistema Complementario de Administración de Divisas;
-- PTR: Petro, criptomoneda del estado venezolano;
-- CENCOEX: Centro Nacional de Comercio Exterior.
+> - BCV: Banco Central de Venezuela;
+> - SICAD: Sistema Complementario de Administración de Divisas;
+> - PTR: Petro, criptomoneda del estado venezolano;
+> - CENCOEX: Centro Nacional de Comercio Exterior.
 
-En cuanto a los datos de los tipos cambiarios, se obtienen a través de la API DolarToday,  la cual se actualiza cada 10 minutos.
+En cuanto a los tipos de cambio, se importan de la [API DolarToday](https://s3.amazonaws.com/dolartoday/data.json), actualizándose cada 10 minutos. Y, el patrón de diseño es MVC (Modelo-Vista-Controlador) , obteniendo las siguientes clases:
+
+| Diseño | Clase |
+| --- | --- |
+| Modelo | Tasa.java |
+| Vista | Interfaz.java |
+| Controlador | Principal.java, ConsumoAPI.java |
 
 
-
-
-
-
-la función de este archivo es presentar información del proyecto, como:
-
-    Descripción de su proyecto;
-    funcionalidades;
-    Cómo pueden usarlo los usuarios;
-    Donde los usuarios pueden encontrar ayuda sobre su proyecto;
-    Autores del proyecto.
+funcionalidades;
+Cómo pueden usarlo los usuarios;
+Donde los usuarios pueden encontrar ayuda sobre su proyecto;
+Autores del proyecto.
