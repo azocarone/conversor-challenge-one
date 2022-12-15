@@ -43,6 +43,7 @@ En cuanto a los tipos de cambio, se importan de la [API DolarToday](https://s3.a
 1. Seleccione el tipo de conversión:
 
 <p align="center">
+![fig. 1](/img/01.png)
     <img src="(img/01.png">
 </p>
 
