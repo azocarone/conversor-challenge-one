@@ -92,7 +92,7 @@ En cuanto a los tipos de cambio, se importan de la [API DolarToday](https://s3.a
 </p>
 
 <p align="right">
-    <img width="32" heigth="32" src="/img/azocarone.svg"> © 2022 José AZÓCAR (azocarONE)
+    <img width="32" heigth="32" src="/img/azocarone.svg"><span>© 2022 José AZÓCAR (azocarONE)</span><br>
     <img heigth="32" src="/img/logo_oracleAlura-es.svg">
 </p>
 
