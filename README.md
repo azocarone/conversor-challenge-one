@@ -7,7 +7,7 @@ Este primer reto de la ruta Java, ONE - Oracle Next Education, está dirigido a 
 Con base en lo anterior, se utilizó el modelo venezolano, donde las monedas relevantes son el dólar estadounidense, el euro y algunas criptomonedas con mayor o menor exposición. Asimismo, dicho mercado está influenciado por varios tipos de cambio oficiales e informales, entre los que se encuentran algunos como:
 
 | Oficial | Informal |
-| :-: | :-: |
+| :-----: | :------: |
 | Dólar BCV  (sicad2) | DólarToday (dolartoday) |
 | Dólar Bitcoin (sicad1) | Cúcuta (efectivo_cucuta) |
 | Petro (PTR) (cencoex) | - |
@@ -20,7 +20,7 @@ Con base en lo anterior, se utilizó el modelo venezolano, donde las monedas rel
 En cuanto a los tipos de cambio, se importan de la [API DolarToday](https://s3.amazonaws.com/dolartoday/data.json), actualizándose cada 10 minutos. Y, el patrón de diseño es MVC (Modelo-Vista-Controlador) , obteniendo las siguientes clases:
 
 | Diseño | Clase |
-| --- | --- |
+| :----: | ----- |
 | Modelo | Tasa.java |
 | Vista | Interfaz.java |
 | Controlador | Principal.java, ConsumoAPI.java |
@@ -42,8 +42,11 @@ En cuanto a los tipos de cambio, se importan de la [API DolarToday](https://s3.a
 
 1. Seleccione el tipo de conversión:
 
+
 <p align="center">
-    <img src="/img/01.png">
+    <kbd>
+        <img src="/img/01.png">
+    </kbd>
 </p>
 
 2. Visualizará un mensaje explicativo del funcionamiento del programa:
