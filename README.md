@@ -42,43 +42,41 @@ En cuanto a los tipos de cambio, se importan de la [API DolarToday](https://s3.a
 
 1. Seleccione el tipo de conversión:
 
-
-<p align="center">
-    <kbd>
-        <img src="/img/01.png">
-    </kbd>
-</p>
+<kbd>
+    <img src="/img/01.png">
+</kbd>
 
 2. Visualizará un mensaje explicativo del funcionamiento del programa:
 
-<p align="center">
+<kbd>
     <img src="/img/02.png">
-</p>
+</kbd>
 
 3. Introduzca la cantidad a convertir:
 
-<p align="center">
+<kbd>
     <img src="/img/03.png">
-</p>
+</kbd>
 
 4. Elija la divisa a cotizar:
 
-<p align="center">
+<kbd>
     <img src="/img/04.png">
-</p>
+</kbd>
 
 5. Visualización de los distintos tipos de cotización:
 
-<p align="center">
+<kbd>
     <img src="/img/05.png">
-</p>
+</kbd>
 
 6. Para salir del programa, basta con pulsar el botón de cancelar hasta que desaparezca la venta del menú principal:
 
-<p align="center">
+<kbd>
     <img src="/img/06.png">
-</p>
+</kbd>
 
-<p align="center">
+<kbd>
     <img src="/img/07.png">
-</p>
+</kbd>
+
