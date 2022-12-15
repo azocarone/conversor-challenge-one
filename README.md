@@ -46,26 +46,36 @@ En cuanto a los tipos de cambio, se importan de la [API DolarToday](https://s3.a
     <img src="/img/01.png">
 </p>
 
-![fig. 1](/img/01.png)
-
 2. Visualizará un mensaje explicativo del funcionamiento del programa:
 
-![fig. 2](/img/02.png)
+<p align="center">
+    <img src="/img/02.png">
+</p>
 
 3. Introduzca la cantidad a convertir:
 
-![fig. 3](/img/03.png)
+<p align="center">
+    <img src="/img/03.png">
+</p>
 
 4. Elija la divisa a cotizar:
 
-![fig. 4](/img/04.png)
+<p align="center">
+    <img src="/img/04.png">
+</p>
 
 5. Visualización de los distintos tipos de cotización:
 
-![fig. 5](/img/05.png)
+<p align="center">
+    <img src="/img/05.png">
+</p>
 
 6. Para salir del programa, basta con pulsar el botón de cancelar hasta que desaparezca la venta del menú principal:
 
-![fig. 6.1](/img/06.png)
+<p align="center">
+    <img src="/img/06.png">
+</p>
 
-![fig. 6.2](/img/07.png)
+<p align="center">
+    <img src="/img/07.png">
+</p>
