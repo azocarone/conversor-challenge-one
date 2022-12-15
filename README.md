@@ -7,7 +7,7 @@ Este primer reto de la ruta Java, ONE - Oracle Next Education, está dirigido a 
 Con base en lo anterior, se utilizó el modelo venezolano, donde las monedas relevantes son el dólar estadounidense, el euro y algunas criptomonedas con mayor o menor exposición. Asimismo, dicho mercado está influenciado por varios tipos de cambio oficiales e informales, entre los que se encuentran algunos como:
 
 | Oficial | Informal |
-| --- | --- |
+| :-: | :-: |
 | Dólar BCV  (sicad2) | DólarToday (dolartoday) |
 | Dólar Bitcoin (sicad1) | Cúcuta (efectivo_cucuta) |
 | Petro (PTR) (cencoex) | - |
