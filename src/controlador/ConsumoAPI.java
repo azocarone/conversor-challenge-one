@@ -44,12 +44,12 @@ public class ConsumoAPI {
 	public Tasa[] setTipoCambio(StringBuilder infoTipoCambio, String tipoDivisa) {
 		/**
 		 * @param tipoDivisa: "USD", "EUR"
-		 *   
+		 * 
 		 */
 		Tasa[] divisa = new Tasa[5];
 		String[] infoEtiqueta = { "dolartoday", "efectivo_cucuta", "sicad2", "sicad1", "cencoex" };
 		String[] tasaNombre = { "DólarToday", "Cucuta", "Dólar BCV", "Dólar Bitcoin", "Petro (PTR)" };
-		
+
 		// La información de la API consumida es una implementacion de tipo objeto
 		JSONObject objetoJson = new JSONObject(infoTipoCambio.toString());
 

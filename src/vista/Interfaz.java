@@ -22,7 +22,7 @@ public class Interfaz {
 				"Solo cifras numéricas positivas ...");
 		if (entrada == null) {
 			return 0;
-		} else if (entrada.isEmpty() || !entrada.matches("^[0-9]+([.][0-9]{1,2})?$")){
+		} else if (entrada.isEmpty() || !entrada.matches("^[0-9]+([.][0-9]{1,2})?$")) {
 			muestraMensaje("Entrada invalida.", "Error", 0);
 			return entradaValor();
 		}
